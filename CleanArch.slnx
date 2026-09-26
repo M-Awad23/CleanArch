@@ -3,7 +3,9 @@
   <Folder Name="/Domain/">
     <Project Path="CleanArchDomain/CleanArchDomain.csproj" />
   </Folder>
-  <Folder Name="/Infra.Data/" />
+  <Folder Name="/Infra.Data/">
+    <Project Path="CleanArch.Infra.Data/CleanArch.Infra.Data.csproj" />
+  </Folder>
   <Folder Name="/Infra.IoC/" />
   <Folder Name="/Presentation/">
     <Project Path="CleanArch.Mvc/CleanArch.Mvc.csproj" />
