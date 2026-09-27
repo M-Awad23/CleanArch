@@ -2,7 +2,8 @@ using CleanArch.Mvc.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using CleanArch.Infra.Data.Context;
- 
+using System.Drawing.Text;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
