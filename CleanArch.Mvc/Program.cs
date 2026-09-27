@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using CleanArch.Infra.Data.Context;
 using System.Drawing.Text;
+using CleanArch.Infra.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,7 +22,7 @@ builder.Services.AddDbContext<UniversityDBContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("UniversityDBConnection"));
 });
-
+DependencyContainer.RegisterServices(builder.Services);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
