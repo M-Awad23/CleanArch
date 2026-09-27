@@ -6,7 +6,9 @@
   <Folder Name="/Domain/">
     <Project Path="CleanArchDomain/CleanArchDomain.csproj" />
   </Folder>
-  <Folder Name="/Infra.Bus/" />
+  <Folder Name="/Infra.Bus/">
+    <Project Path="CleanArch.Infra.Bus/CleanArch.Infra.Bus.csproj" Id="040fb453-2d68-4585-a029-5fd29c67535f" />
+  </Folder>
   <Folder Name="/Infra.Data/">
     <Project Path="CleanArch.Infra.Data/CleanArch.Infra.Data.csproj" />
   </Folder>
